@@ -1,0 +1,19 @@
+{
+  "name": "test-mail",
+  "version": "1.0.0",
+  "description": "Simple project to test e-mail sending using SMTP",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "jest --watch",
+    "services:mail:up": "docker compose -f infra/compose.yaml up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
